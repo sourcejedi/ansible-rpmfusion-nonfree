@@ -17,5 +17,5 @@ galaxy_info:
 # https://rpmfusion.org/FoundingPrinciples
 #
 dependencies:
- - rpmfusion-free
- - { role: rpmfusion__impl, repo: nonfree }
+ - sourcejedi.rpmfusion-free
+ - { role: sourcejedi.rpmfusion__impl, repo: nonfree }
