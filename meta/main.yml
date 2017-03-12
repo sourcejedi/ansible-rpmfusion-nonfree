@@ -1,6 +1,20 @@
-# "First enable access to the free repository ...
-# Once that succeeds, you can enable access to the nonfree repositories"
-# https://rpmfusion.org/Configuration
+galaxy_info:
+  author: Alan Jenkins
+  description: Enable the RPM Fusion "nonfree" software repository, on Fedora Linux
+
+  license: GPLv3
+
+  # Ansible version without known vulnerabilities, according to debops project
+  min_ansible_version: 2.1.4.0
+
+  platforms:
+    - name: Fedora
+      versions: [24, 25, 26, 27]
+
+  galaxy_tags: []
+
+# "The nonfree repository depends on the free repository."
+# https://rpmfusion.org/FoundingPrinciples
 #
 dependencies:
  - rpmfusion-free
