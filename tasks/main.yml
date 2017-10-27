@@ -1,5 +1,7 @@
 # Our tasks are all performed by depending on rpmfusion__impl (../meta/main.yml).
-# The ansible output could be confusing.  This task will clarify it.
+# The ansible output could be confusing.  Including at least one task here
+# will help clarify it.  (Also rpmfusion__impl will first print which repo
+# it is processing, in case it fails.)
 #
 # If we don't specify `name`, we see task prefixed as e.g. "ping"
 # instead of "rpmfusion-nonfree" e.g. in --list-tasks; this is not helpful.
