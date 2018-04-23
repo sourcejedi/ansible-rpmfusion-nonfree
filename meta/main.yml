@@ -9,7 +9,7 @@ galaxy_info:
 
   platforms:
     - name: Fedora
-      versions: [25, 26]
+      versions: [26, 27]
 
   galaxy_tags:
     - repository
