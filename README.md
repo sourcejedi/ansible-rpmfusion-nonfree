@@ -1,4 +1,4 @@
-# sourcejedi.rpmfusion-nonfree #
+# sourcejedi.rpmfusion_nonfree #
 
 Enable the [RPM Fusion][rpmfusion] "nonfree" software repository, on Fedora Linux.
 This role also enables the "free" repository, as it may be required by software in "nonfree".

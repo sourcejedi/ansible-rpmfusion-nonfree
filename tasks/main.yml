@@ -7,6 +7,6 @@
 # instead of "rpmfusion-nonfree" e.g. in --list-tasks; this is not helpful.
 # If we use "debug" instead of "ping", we are forced to specify "msg" too.
 #
-- name: rpmfusion-nonfree enabled ok
+- name: rpmfusion_nonfree enabled ok
   ping:
   tags: rpmfusion
