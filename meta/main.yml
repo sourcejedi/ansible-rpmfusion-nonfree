@@ -2,11 +2,12 @@ galaxy_info:
   role-name: rpmfusion_nonfree
   author: Alan Jenkins
   description: Enable the RPM Fusion "nonfree" software repository, on Fedora Linux
-
+  galaxy_tags:
+    - repository
   license: GPLv3
 
-  # check_mode
-  min_ansible_version: 2.2
+  # rpmfusion__impl uses import_tasks / include_tasks
+  min_ansible_version: 2.4
 
   platforms:
     - name: Fedora
@@ -14,8 +15,6 @@ galaxy_info:
        - 29
        - 30
 
-  galaxy_tags:
-    - repository
 
 # "The nonfree repository depends on the free repository."
 # https://rpmfusion.org/FoundingPrinciples
