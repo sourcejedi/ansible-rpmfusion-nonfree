@@ -12,8 +12,8 @@ galaxy_info:
   platforms:
     - name: Fedora
       versions:
-       - 29
        - 30
+       - 31
 
 
 # "The nonfree repository depends on the free repository."
